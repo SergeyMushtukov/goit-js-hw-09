@@ -16,3 +16,31 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* ----------CUSTOM CSS---------- */
+
+.timer {
+  display: flex;
+  gap: 13px;
+
+  margin-top: 15px;
+
+  text-align: center;
+}
+
+.value,
+.label {
+  display: block;
+}
+
+.value {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
